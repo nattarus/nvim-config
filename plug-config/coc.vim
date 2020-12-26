@@ -1,5 +1,5 @@
 " Explorer
-nmap <space>e :CocCommand explorer<CR>
+nmap <space>e :CocCommand explorer --quit-on-open<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
 nnoremap <silent> K :call CocAction('doHover')<CR>
