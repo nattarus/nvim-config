@@ -45,6 +45,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'AndrewRadev/tagalong.vim'
     " surround
     Plug 'tpope/vim-surround'
+    " rename files
+    Plug 'tpope/vim-eunuch'
     " snippets
     Plug 'honza/vim-snippets'
     Plug 'mattn/emmet-vim'

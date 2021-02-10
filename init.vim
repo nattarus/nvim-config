@@ -10,6 +10,7 @@ source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
 source $HOME/.config/nvim/plug-config/vim-rooter.vim
+source $HOME/.config/nvim/plug-config/jest.vim
 source $HOME/.config/nvim/keys/mappings.vim
 
 
