@@ -36,8 +36,12 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 set cmdheight=2
 set shortmess+=c
 set nu rnu
+set ignorecase
+set smartcase
 
 " set autochdir                           " Your working directory will always be the same as your working directory
+set termguicolors
+" let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 

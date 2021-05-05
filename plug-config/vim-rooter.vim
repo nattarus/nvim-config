@@ -1,1 +1,1 @@
-let g:rooter_patterns = ['package.json']
+" let g:rooter_patterns = ['package.json']

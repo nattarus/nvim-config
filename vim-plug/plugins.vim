@@ -10,12 +10,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
-    
+
+    Plug 'andreshazard/vim-freemarker'
+    " Graphql
     " Plug 'leafgarland/typescript-vim'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes
     Plug 'morhetz/gruvbox' 
+    Plug 'arcticicestudio/nord-vim'
+    Plug 'joshdick/onedark.vim' 
+    " Plug 'christianchiarulli/nvcode-color-schemes.vim'
+    " Plug 'nvim-treesitter/nvim-treesitter'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'neoclide/jsonc.vim'
@@ -24,7 +30,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-commentary'
     Plug 'airblade/vim-rooter'
     " ranger
-    Plug 'kevinhwang91/rnvimr'
+    " Plug 'meain/vim-package-info', { 'do': 'npm install' }
+    " Plug 'kevinhwang91/rnvimr'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
     Plug 'junegunn/fzf.vim'
@@ -32,13 +39,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " project manager
     Plug 'mhinz/vim-startify'
     " terminal
-    Plug 'voldikss/vim-floaterm'
+    " Plug 'voldikss/vim-floaterm'
     " history tree
     Plug 'mbbill/undotree'
     " smart close tab buffer
     Plug 'moll/vim-bbye'
     " zen mode
-    Plug 'junegunn/goyo.vim'
+    " Plug 'junegunn/goyo.vim'
     " smooth scroll
     Plug 'psliwka/vim-smoothie'
     " auto html tag
@@ -48,7 +55,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " rename files
     Plug 'tpope/vim-eunuch'
     " snippets
-    Plug 'honza/vim-snippets'
+    " Plug 'honza/vim-snippets'
     Plug 'mattn/emmet-vim'
     " Plug 'SirVer/ultisnips'
     call plug#end()
